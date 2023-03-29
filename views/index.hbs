@@ -1,0 +1,27 @@
+{{data}}
+<article>
+    <form>
+        <button id="createNoteButton" class="dark">Create new Todo</button>
+        <button id="changeStyleButton">Switch Style</button>
+    </form>
+    <form>
+        <button id="sortNameButton">Name</button>
+        <button id="sortDateButton">Due Date</button>
+        <button id="sortCreationDateButton">Creation Date</button>
+    </form>
+    {{todo}}
+    <div id="todo-entities">
+        {{#each todo}}
+            <span>{{ title }} </span>
+            <span> {{ importance }} </span>
+            <span> {{ creationDate }} </span>
+            <span> {{ dueDate }} </span>
+
+            <span>
+                Is done
+                <label for="todo"></label>
+                <input type="checkbox" id="todo" name="isDone">
+            </span>
+        {{/each}}
+    </div>
+</article>

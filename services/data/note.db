@@ -1,0 +1,4 @@
+{"title":"test","importance":2,"creationDate":{"$$date":1679584977101},"finished":"12.12.2022","_id":"mpasCZTDS5w2LMH7"}
+{"title":"test1","importance":2,"creationDate":{"$$date":1680080530680},"dueDate":"12.12.2022","finished":"12.12.2022","_id":"YjbzJC6jf8QQwe7e"}
+{"title":"test2","importance":6,"creationDate":{"$$date":1680080530684},"dueDate":"12.12.2022","finished":"14.12.2022","_id":"WR0tCNuIwtrXFvQ9"}
+{"title":"test3","importance":8,"creationDate":{"$$date":1680080530686},"dueDate":"12.12.2022","finished":"13.12.2022","_id":"7C8TqzkPkf61hEAp"}
